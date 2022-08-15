@@ -1,0 +1,115 @@
+
+.fundo img{
+    width: 100%;
+}
+
+.fundo {
+    background-image: url(/assets/images/rs.jpg);
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.box {
+    font-family: 'Lato', sans-serif;
+    margin-left: 950px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 400px;
+    border-radius: 15px;
+    color: #fcf7f0;
+    box-shadow: 0px 0px 42px -6px rgba(0,0,0,0.59);
+
+}
+
+legend {
+    border: 1px solid #FFD500;
+    padding: 10px;
+    text-align: center;
+    background-color: #FDC500;
+    border-radius: 5px;
+    color: #00296B;
+}
+
+.inputbox {
+    position: relative;    
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #FDC500;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelInput{
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: #FFD500;
+}
+
+#uf {
+    padding: 5px;
+    border-radius: 15px;
+    outline: none;
+}
+
+#submit {
+    background-color: #FDC500;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: #00296B;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#submit:hover {
+    background-color: #00296B;
+    color: #FFD500;
+}
+
+#buttons ul, #buttons li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#buttons ul {
+    display: flex;
+}
+
+#buttons a{
+    margin-left: 25px;
+    border-radius: 10px;
+    padding: 10px;
+    color: #FFD500;
+    background-color: #00296B;
+}
+
+#buttons .active, #buttons a:hover{
+    background-color: #FFD500;
+    color: #003F88;
+    border-radius: 5px;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
